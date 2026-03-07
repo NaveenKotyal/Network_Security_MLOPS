@@ -1,0 +1,19 @@
+[ 2026-03-07 16:32:44,268 ] 23 root - INFO - Initiate the data ingestion
+[ 2026-03-07 16:32:44,269 ] 76 root - INFO - Starting data ingestion process
+[ 2026-03-07 16:32:45,816 ] 44 root - INFO - Exporting data into feature store
+[ 2026-03-07 16:32:45,876 ] 49 root - INFO - Data exported to feature store at Artifacts\03_07_2026_16_32_42\data_ingestion\feature_store\phisingData.csv
+[ 2026-03-07 16:32:45,876 ] 57 root - INFO - Splitting data into train and test sets
+[ 2026-03-07 16:32:45,921 ] 69 root - INFO - Data split into train and test sets at Artifacts\03_07_2026_16_32_42\data_ingestion\ingested\train.csv and Artifacts\03_07_2026_16_32_42\data_ingestion\ingested\test.csv
+[ 2026-03-07 16:32:45,921 ] 84 root - INFO - Data ingestion process completed with artifact: DataIngestionArtifact(training_file_path='Artifacts\\03_07_2026_16_32_42\\data_ingestion\\ingested\\train.csv', testing_file_path='Artifacts\\03_07_2026_16_32_42\\data_ingestion\\ingested\\test.csv')
+[ 2026-03-07 16:32:45,921 ] 25 root - INFO - Data Initiation Completed
+[ 2026-03-07 16:32:45,932 ] 28 root - INFO - Initiate the data validation
+[ 2026-03-07 16:32:46,017 ] 36 root - INFO - Expected number of columns: 31
+[ 2026-03-07 16:32:46,017 ] 37 root - INFO - Actual number of columns: 31
+[ 2026-03-07 16:32:46,017 ] 36 root - INFO - Expected number of columns: 31
+[ 2026-03-07 16:32:46,017 ] 37 root - INFO - Actual number of columns: 31
+[ 2026-03-07 16:32:46,143 ] 30 root - INFO - Data Validation Completed
+[ 2026-03-07 16:32:46,143 ] 32 root - INFO - Data transformation has Started
+[ 2026-03-07 16:32:46,143 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-07 16:32:46,144 ] 65 root - INFO - Starting data transformation
+[ 2026-03-07 16:32:46,222 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2026-03-07 16:32:46,223 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
